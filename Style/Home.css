@@ -1,0 +1,113 @@
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #032585 0%, #001654 30%, #030e2b 65%, #000000 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: rgb(253, 253, 253);
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+#title {
+  font-weight: bold;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+#title a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  background-color: #20253093;
+  display: flex;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+#Homebar {
+  background-color: rgba(22, 23, 32, 0.493);
+  margin: 0rem 5rem;
+  border-radius: 9999px;
+  box-shadow: 0px 2px 15px rgba(255, 255, 255, 0.09);
+}
+
+#list {
+  font-size: 2rem;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin: 0;
+  padding: 1rem 5rem;
+  gap: 15rem;
+}
+
+#list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#list li a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+}
+
+#list li a:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+  #title a{
+    text-decoration: none;
+    color: white;
+  }
+
+.ban{
+  background-color: #202530;
+  margin: 2rem 38rem;
+  
+
+  padding: 2rem;
+border-radius: 15px;
+box-shadow: .5px 1px 6px rgba(255, 255, 255, 0.459);
+}
+.banner{
+ 
+  overflow: hidden;     
+  width: 600px;
+
+border-radius: 16px;
+
+}
+
+.som{
+  text-align: center;
+  font-size: large;
+}
+
+
+.banner-inner {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+
+}
+
+
+footer{
+  position: fixed;
+  background-color: #20253048;
+  padding: 1rem;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  backdrop-filter: blur(5px);
+}
